@@ -1,0 +1,44 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-image: url('images/WebDevPic2.webp');
+    background-size: cover;
+    height: 400px;
+    
+}
+
+
+.headerContainer {
+    color: white;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 40px;
+    height: 400px;
+}
+
+.projectsBox {
+    text-align: center;
+    border: solid black 5px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: justify;
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+
+.interiorProjectBox {
+    display: inline-block;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 165px;
+    height: 200px;
+    overflow: hidden;
+    
+}
