@@ -81,9 +81,9 @@ nav ul li a {
     
 }
 #infoPages {
-    background-image: url("images/InfoPagesPreviewSmaller.png");
-    font-weight:bolder;
-    color: white;
+    background-image: url("images/InfoPagesPreview.PNG");
+    opacity: .5;
+    font-weight:bolder
 }
 
 
