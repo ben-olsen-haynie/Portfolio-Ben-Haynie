@@ -2,8 +2,7 @@ function infoPages() {
     window.location.href="https://ben-olsen-haynie.github.io/Info-Pages/InfoPages.html"
 }
 function artistWebpage() {
-    // window.location.href=""
-    alert('Coming Soon!');
+    window.location.href="https://ben-olsen-haynie.github.io/Artist-Profile/ArtistProfile.html"
 }
 function familyCalender() {
     // window.location.href=""

@@ -85,6 +85,13 @@ nav ul li a {
     font-weight:bolder;
     color: white;
 }
+#artistProfile {
+    background-image: url("images/ArtistProfilePreview.PNG");
+    font-weight: bolder;
+    color: white;
+    background-repeat: no-repeat;
+    background-color: black;
+}
 
 
 
