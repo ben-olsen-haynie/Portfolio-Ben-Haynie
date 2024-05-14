@@ -8,7 +8,9 @@ function familyCalender() {
     // window.location.href=""
     alert('Coming Soon!');
 }
-
+function formula21Webpage() {
+    window.location.href="https://ben-olsen-haynie.github.io/Formula21-Website/Formula21.html"
+}
 
 
 
