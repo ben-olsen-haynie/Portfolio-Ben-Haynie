@@ -1,0 +1,121 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Ben Haynie-Bulma</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar has-background-dark has-text-centered">
+      <div class="is-size-4 pt-1">
+        <a href="bulma.html" class="nav-bar-item has-text-light">Home</a>
+        <a href="#" class="nav-bar-item has-text-light pl-5">Projects</a>
+        <a href="https://bulma.io/" class="nav-bar-item has-text-light pl-5"
+          >Bulma</a
+        >
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <section class=" is-fullwidth pb-0">
+      <figure">
+        <img src="images/WebDevHeaderImgSmaller.jpg" alt="" />
+      </figure>
+    </section>
+
+    <!-- PROJECTS PREVIEW -->
+    <style>
+        .scroll-section {
+            position: relative;
+            width: 60%;
+            margin: 0 auto;
+            overflow-x: auto;
+            white-space: nowrap;
+            border-radius: 15px;
+            border: 3px solid #ddd;
+            padding: 1rem;
+            padding-bottom: 0;
+        }
+        .scroll-section::-webkit-scrollbar {
+            height: 12px; 
+        }
+        .scroll-section::-webkit-scrollbar-thumb {
+            background-color: #888; 
+            border-radius: 10px;
+        }
+        /* .scroll-section::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 5px; 
+            right: 0;
+            height: 12px; 
+            background: #f5f5f5; 
+            z-index: 1;
+        } */
+        .scroll-section .card {
+            display: inline-block;
+            width: 200px;
+            margin-right: 1rem;
+            border-radius: 10px; /* Rounded corners for cards */
+            overflow: hidden; /* Ensures that the image corners are rounded */
+        }
+    </style>
+
+    <section class="section pt-5">
+        <h1 class="title is-size-3 has-text-centered">Projects Preview</h1>
+        <div class="container">
+            <div class="scroll-section">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="project-img">
+                            <img src="images/Capture.PNG" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="project-img">
+                            <img src="images/Capture.PNG" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="project-img">
+                            <img src="images/Capture.PNG" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="project-img">
+                            <img src="images/Capture.PNG" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- last card always gets misaligned. leave empty till I find fix. -->
+                <!-- <div class="card"> -->
+                    <div class="card-image">
+                        <figure class="project-img">
+                            <img src="" alt="">
+                        </figure>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
+
+
+
+<!-- TO DO
+nav bar text doesn't stay centered when put in full screen. fix
+
+
+-->
