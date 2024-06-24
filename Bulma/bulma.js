@@ -7,10 +7,16 @@ function artistProfileLink() {
 }
 
 function f21WebpageLink() {
-    window.location.href = "https://ben-olsen-haynie.github.io/Formula21-Website/Bulma/bulma.html";
+    window.location.href = "https://formula21autoglass.com";
 }
 
 function familyEventLink() {
     // window.location.href = "";
     alert("Coming Soon!!");
+}
+function bulmaToDoListLink() {
+    window.location.href = "https://projects.benhaynie.com/Frameworks/ToDoList/Bulma/index.html";
+}
+function bulmaEcommerceSiteLink() {
+    window.location.href = "https://projects.benhaynie.com/Frameworks/Ecommerce%20Site/Bulma/index.html";
 }
