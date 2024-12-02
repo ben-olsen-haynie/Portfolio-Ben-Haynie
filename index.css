@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+
+html {
+    scrollbar-width: none;
+}
+.curse {
+    font-family: "Caveat", serif;
+}
+.nav-link:hover {
+    color: rgb(0, 179, 255);
+}
+nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 550px;
+}
+/* margins not working on body!!! */
+/* body {
+    margin-left: 30%;
+    margin-right: 20%;
+} */
+.header-titles {
+    margin-left: 4%;
+}
+.header-section {
+    position: relative;
+}
+.about-me {
+    position: absolute;
+    top: 0px;
+    left: 35%;
+    max-width: 630px;
+    /* min-width: 200px; */
+}
+
+
+
+.scroll-section {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-radius: 15px;
+    border: 3px solid #ddd;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  .scroll-section::-webkit-scrollbar {
+    height: 12px;
+  }
+  .scroll-section::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+  .scroll-section .card {
+    display: inline-block;
+    width: 200px;
+    margin-right: 1rem;
+    border-radius: 10px; /* Rounded corners for cards */
+    overflow: hidden; /* Ensures that the image corners are rounded */
+    max-height: 220px;
+  }
+
+.projects-button {
+    margin: 0 auto;
+}
+@media(max-width: 780px) {
+    .about-me {
+        top: 85px;
+        left: 30px;
+        max-width: 80%;
+        color:rgb(0, 179, 255)
+    }
+    nav {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        min-width: 550px;
+    }
+
+}
+/* @media(prefers-colors-scheme: dark) {
+    .has-text-white-dark {
+        color: white !important;
+    }
+} */
